@@ -1,0 +1,21 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "repository": "https://github.com/rishabkoul/react-component-library",
+  "author": "Rishab Koul <t-rishab.koul@paytmmoney.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build --copy-files",
+    "prepare": "yarn run build"
+   },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
